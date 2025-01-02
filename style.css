@@ -38,6 +38,7 @@ h1{
     background-color:#ffffff;
     padding: 20px; 
     border-radius: 4px;
+    
 }
 
 .start{
@@ -98,6 +99,12 @@ h1{
 
 .start-btn:hover{
     background-color:  #7e6da7;
+}
+
+.tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .next-btn{
