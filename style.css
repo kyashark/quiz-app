@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #D3C5E5;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.quiz-container, .score-container, .start-container{
+    display: none;
+}
+
+
+.container{
+    width: 500px;
+    height: 450px;
+    background-color:#ffffff;
+    padding: 20px; 
+    border-radius: 4px;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz{
+    display: none;
+}
+
+.score{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.question{
+    margin-top: 20px;
+    height: 30px;
+}
+
+.answers{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap:20px;
+}
+
+.answer-btn{
+    background-color:#ffffff;
+    border: 1px solid #222222;
+    border-radius: 4px;
+    padding: 7px;
+    cursor:pointer;
+    border-radius: 4px;
+}
+
+.answer-btn:hover{
+      background-color: #d8cdf1;
+}
+
+.answer-btn.selected{
+    background-color: #bda6f3;
+}
+
+.start-btn{
+    padding:10px;
+    width:150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #735DA5;
+}
+
+.start-btn:hover{
+    background-color:  #7e6da7;
+}
+
+.next-btn{
+    padding:5px;
+    width:150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 40px;
+    background-color: #735DA5;
+    color: white;
+}
+
+.next-btn:hover{
+    background-color: #7e6da7;
+}
+
+.score-container p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.score-container span{
+    font-size: 30px;
+    font-weight: 500;
+    color:#ad91ec;
+}
+
+
+.restart-btn{
+    padding:5px;
+    width:100px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #735DA5;
+    color: white;
+}
+
+
+.score p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
